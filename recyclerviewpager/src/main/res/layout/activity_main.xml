@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     >
-   <android.support.v7.widget.RecyclerView
+   <androidx.recyclerview.widget.RecyclerView
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:id="@+id/bg"/>
@@ -16,10 +16,10 @@
        android:src="@mipmap/bookshelf_card_mode_bg"
        android:scaleType="centerCrop"
        android:id="@+id/bg_top"/>
-   <android.support.v7.widget.RecyclerView
+   <androidx.recyclerview.widget.RecyclerView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_centerInParent="true"
        android:id="@+id/recyclerview"
-       ></android.support.v7.widget.RecyclerView>e
+       ></androidx.recyclerview.widget.RecyclerView>e
 </RelativeLayout>
